@@ -3,7 +3,7 @@ const chai = require('chai');
 chai.use(require('chai-as-promised'));
 const assert = chai.assert;
 
-import {array_to_get} from './../../../src/server/helpers/array_to_get';
+import {array_to_get} from './../../lib/array_to_get';
 
 describe('server/helpers/array_to_get', function () {
 
