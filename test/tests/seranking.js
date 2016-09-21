@@ -9,7 +9,7 @@ import {
   seranking_sites,
   seranking_siteKeywords,
   seranking_stat,
-} from './../../../src/server/helpers/seranking';
+} from './../../lib/seranking';
 
 describe('server/helpers/seranking', function () {
 
