@@ -3,7 +3,7 @@ const chai = require('chai');
 chai.use(require('chai-as-promised'));
 const expect = require('chai').expect;
 
-import {config} from './../../../src/server/config/config';
+import {config} from './../../lib/config';
 import {
   seranking_login,
   seranking_sites,
